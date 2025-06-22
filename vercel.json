@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "live-matches.html", "use": "@vercel/static" },
+    { "src": "past-results.html", "use": "@vercel/static" },
+    { "src": "predictions.html", "use": "@vercel/static" },
+    { "src": "gtleagues-hub.html", "use": "@vercel/static" },
+    { "src": "gtleagues-tv1.html", "use": "@vercel/static" },
+    { "src": "gtleagues-tv2.html", "use": "@vercel/static" },
+    { "src": "gtleagues-tv3.html", "use": "@vercel/static" },
+    { "src": "gtleagues-tv4.html", "use": "@vercel/static" },
+    { "src": "styles.css", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "^/$", "dest": "/index.html" },
+    { "src": "^/live-matches$", "dest": "/live-matches.html" },
+    { "src": "^/past-results$", "dest": "/past-results.html" },
+    { "src": "^/predictions$", "dest": "/predictions.html" },
+    { "src": "^/gtleagues-hub$", "dest": "/gtleagues-hub.html" },
+    { "src": "^/gtleagues-tv1$", "dest": "/gtleagues-tv1.html" },
+    { "src": "^/gtleagues-tv2$", "dest": "/gtleagues-tv2.html" },
+    { "src": "^/gtleagues-tv3$", "dest": "/gtleagues-tv3.html" },
+    { "src": "^/gtleagues-tv4$", "dest": "/gtleagues-tv4.html" },
+
+    { "src": "^/admin$", "dest": "https://strikerapi-production.up.railway.app/" },
+    { "src": "^/admin/(.*)", "dest": "https://strikerapi-production.up.railway.app/$1" },
+
+    {
+      "src": "^/(verify|status|check-files|run-full-pipeline|run-phase/.*)$",
+      "dest": "https://strikerapi-production.up.railway.app/$1"
+    }
+  ]
+}
+
