@@ -25,7 +25,7 @@ app.add_middleware(
 
 # Security
 security = HTTPBearer()
-ADMIN_KEY = "FLAMEBOUND_DEV_TEAM_2025"
+ADMIN_KEY = os.getenv("ADMIN_KEY", "FLAMEBOUND_DEV_TEAM_2025")
 
 # Pipeline status
 pipeline_status = {
