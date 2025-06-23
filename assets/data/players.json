@@ -49,19 +49,19 @@
   },
   {
     "player": "Dusan",
-    "win_percent": 53.68,
-    "draw_percent": 20.7,
-    "loss_percent": 25.61,
+    "win_percent": 53.5,
+    "draw_percent": 20.98,
+    "loss_percent": 25.52,
     "total_games": 100,
-    "confidence_score": 64.03
+    "confidence_score": 63.99
   },
   {
     "player": "Miguel",
-    "win_percent": 52.73,
-    "draw_percent": 20.92,
-    "loss_percent": 26.34,
+    "win_percent": 52.68,
+    "draw_percent": 21.0,
+    "loss_percent": 26.32,
     "total_games": 100,
-    "confidence_score": 63.19
+    "confidence_score": 63.18
   },
   {
     "player": "Jesus",
@@ -105,8 +105,8 @@
   },
   {
     "player": "Dempsey",
-    "win_percent": 39.18,
-    "draw_percent": 26.76,
+    "win_percent": 39.17,
+    "draw_percent": 26.78,
     "loss_percent": 34.05,
     "total_games": 100,
     "confidence_score": 52.56
@@ -155,7 +155,7 @@
     "player": "Diego",
     "win_percent": 42.58,
     "draw_percent": 18.56,
-    "loss_percent": 38.86,
+    "loss_percent": 38.87,
     "total_games": 100,
     "confidence_score": 51.86
   }
