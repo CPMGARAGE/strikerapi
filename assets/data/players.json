@@ -1,0 +1,162 @@
+[
+  {
+    "player": "Yakuza",
+    "win_percent": 75.69,
+    "draw_percent": 11.11,
+    "loss_percent": 13.19,
+    "total_games": 100,
+    "confidence_score": 81.245
+  },
+  {
+    "player": "Eros",
+    "win_percent": 67.36,
+    "draw_percent": 14.64,
+    "loss_percent": 17.99,
+    "total_games": 100,
+    "confidence_score": 74.68
+  },
+  {
+    "player": "Puyol",
+    "win_percent": 60.0,
+    "draw_percent": 16.25,
+    "loss_percent": 23.75,
+    "total_games": 100,
+    "confidence_score": 68.125
+  },
+  {
+    "player": "Romeo",
+    "win_percent": 58.13,
+    "draw_percent": 19.07,
+    "loss_percent": 22.8,
+    "total_games": 100,
+    "confidence_score": 67.665
+  },
+  {
+    "player": "Giant",
+    "win_percent": 57.51,
+    "draw_percent": 17.69,
+    "loss_percent": 24.8,
+    "total_games": 100,
+    "confidence_score": 66.355
+  },
+  {
+    "player": "Fred",
+    "win_percent": 56.67,
+    "draw_percent": 17.22,
+    "loss_percent": 26.11,
+    "total_games": 100,
+    "confidence_score": 65.28
+  },
+  {
+    "player": "Dusan",
+    "win_percent": 53.68,
+    "draw_percent": 20.7,
+    "loss_percent": 25.61,
+    "total_games": 100,
+    "confidence_score": 64.03
+  },
+  {
+    "player": "Miguel",
+    "win_percent": 52.73,
+    "draw_percent": 20.92,
+    "loss_percent": 26.34,
+    "total_games": 100,
+    "confidence_score": 63.19
+  },
+  {
+    "player": "Jesus",
+    "win_percent": 54.75,
+    "draw_percent": 15.2,
+    "loss_percent": 30.06,
+    "total_games": 100,
+    "confidence_score": 62.35
+  },
+  {
+    "player": "Hussein",
+    "win_percent": 49.44,
+    "draw_percent": 20.72,
+    "loss_percent": 29.84,
+    "total_games": 100,
+    "confidence_score": 59.8
+  },
+  {
+    "player": "Spartacus",
+    "win_percent": 40.72,
+    "draw_percent": 25.13,
+    "loss_percent": 34.14,
+    "total_games": 100,
+    "confidence_score": 53.285
+  },
+  {
+    "player": "Viking",
+    "win_percent": 43.72,
+    "draw_percent": 18.47,
+    "loss_percent": 37.81,
+    "total_games": 100,
+    "confidence_score": 52.955
+  },
+  {
+    "player": "Banega",
+    "win_percent": 42.32,
+    "draw_percent": 21.1,
+    "loss_percent": 36.58,
+    "total_games": 100,
+    "confidence_score": 52.870000000000005
+  },
+  {
+    "player": "Dempsey",
+    "win_percent": 39.18,
+    "draw_percent": 26.76,
+    "loss_percent": 34.05,
+    "total_games": 100,
+    "confidence_score": 52.56
+  },
+  {
+    "player": "Sensei",
+    "win_percent": 43.65,
+    "draw_percent": 17.57,
+    "loss_percent": 38.78,
+    "total_games": 100,
+    "confidence_score": 52.435
+  },
+  {
+    "player": "Vendetta",
+    "win_percent": 41.52,
+    "draw_percent": 21.52,
+    "loss_percent": 36.97,
+    "total_games": 100,
+    "confidence_score": 52.28
+  },
+  {
+    "player": "Jack",
+    "win_percent": 41.65,
+    "draw_percent": 21.19,
+    "loss_percent": 37.13,
+    "total_games": 100,
+    "confidence_score": 52.245
+  },
+  {
+    "player": "David",
+    "win_percent": 41.86,
+    "draw_percent": 20.39,
+    "loss_percent": 37.73,
+    "total_games": 100,
+    "confidence_score": 52.055
+  },
+  {
+    "player": "Sato",
+    "win_percent": 43.93,
+    "draw_percent": 16.06,
+    "loss_percent": 40.0,
+    "total_games": 100,
+    "confidence_score": 51.96
+  },
+  {
+    "player": "Diego",
+    "win_percent": 42.58,
+    "draw_percent": 18.56,
+    "loss_percent": 38.86,
+    "total_games": 100,
+    "confidence_score": 51.86
+  }
+]
