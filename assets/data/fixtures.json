@@ -6,10 +6,10 @@
     "away_team": "ArsenalDempsey",
     "tv_channel": "TV4",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483021",
+    "last_updated": "2025-06-23T12:36:56.706628",
     "match_id": "Real_MadridMiguel_ArsenalDempsey_12:45",
     "calculated_datetime": "2025-06-23T12:45:00",
-    "time_until_kickoff": "0.2h"
+    "time_until_kickoff": "0.1h"
   },
   {
     "kickoff_time": "12:45",
@@ -18,10 +18,10 @@
     "away_team": "FC BarcelonaDiego",
     "tv_channel": "TV1",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483053",
+    "last_updated": "2025-06-23T12:36:56.706657",
     "match_id": "Real_MadridArthur_FC_BarcelonaDiego_12:45",
     "calculated_datetime": "2025-06-23T12:45:00",
-    "time_until_kickoff": "0.2h"
+    "time_until_kickoff": "0.1h"
   },
   {
     "kickoff_time": "12:45",
@@ -30,10 +30,10 @@
     "away_team": "VillarrealDelpiero",
     "tv_channel": "TV2",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483105",
+    "last_updated": "2025-06-23T12:36:56.706685",
     "match_id": "Athletic_BilbaoCarlos_VillarrealDelpiero_12:45",
     "calculated_datetime": "2025-06-23T12:45:00",
-    "time_until_kickoff": "0.2h"
+    "time_until_kickoff": "0.1h"
   },
   {
     "kickoff_time": "13:00",
@@ -42,10 +42,10 @@
     "away_team": "Bayern M\u00fcnchenPotter",
     "tv_channel": "TV3",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483137",
+    "last_updated": "2025-06-23T12:36:56.706714",
     "match_id": "PSGDusan_Bayern_M\u00fcnchenPotter_13:00",
     "calculated_datetime": "2025-06-23T13:00:00",
-    "time_until_kickoff": "0.5h"
+    "time_until_kickoff": "0.4h"
   },
   {
     "kickoff_time": "13:00",
@@ -54,10 +54,10 @@
     "away_team": "Inter MilanSato",
     "tv_channel": "TV4",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483168",
+    "last_updated": "2025-06-23T12:36:56.706741",
     "match_id": "Real_MadridMiguel_Inter_MilanSato_13:00",
     "calculated_datetime": "2025-06-23T13:00:00",
-    "time_until_kickoff": "0.5h"
+    "time_until_kickoff": "0.4h"
   },
   {
     "kickoff_time": "13:00",
@@ -66,10 +66,10 @@
     "away_team": "FC BarcelonaDiego",
     "tv_channel": "TV1",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483202",
+    "last_updated": "2025-06-23T12:36:56.706768",
     "match_id": "Athletic_BilbaoCarlos_FC_BarcelonaDiego_13:00",
     "calculated_datetime": "2025-06-23T13:00:00",
-    "time_until_kickoff": "0.5h"
+    "time_until_kickoff": "0.4h"
   },
   {
     "kickoff_time": "13:00",
@@ -78,10 +78,10 @@
     "away_team": "Real MadridArthur",
     "tv_channel": "TV2",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483235",
+    "last_updated": "2025-06-23T12:36:56.706801",
     "match_id": "Atletico_MadridPrince_Real_MadridArthur_13:00",
     "calculated_datetime": "2025-06-23T13:00:00",
-    "time_until_kickoff": "0.5h"
+    "time_until_kickoff": "0.4h"
   },
   {
     "kickoff_time": "13:15",
@@ -90,10 +90,10 @@
     "away_team": "Bayern M\u00fcnchenPotter",
     "tv_channel": "TV3",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483265",
+    "last_updated": "2025-06-23T12:36:56.706842",
     "match_id": "Real_MadridMiguel_Bayern_M\u00fcnchenPotter_13:15",
     "calculated_datetime": "2025-06-23T13:15:00",
-    "time_until_kickoff": "0.7h"
+    "time_until_kickoff": "0.6h"
   },
   {
     "kickoff_time": "13:15",
@@ -102,10 +102,10 @@
     "away_team": "PSGDusan",
     "tv_channel": "TV4",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483294",
+    "last_updated": "2025-06-23T12:36:56.706873",
     "match_id": "ArsenalDempsey_PSGDusan_13:15",
     "calculated_datetime": "2025-06-23T13:15:00",
-    "time_until_kickoff": "0.7h"
+    "time_until_kickoff": "0.6h"
   },
   {
     "kickoff_time": "13:15",
@@ -114,10 +114,10 @@
     "away_team": "FC BarcelonaDiego",
     "tv_channel": "TV1",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483323",
+    "last_updated": "2025-06-23T12:36:56.706901",
     "match_id": "Atletico_MadridPrince_FC_BarcelonaDiego_13:15",
     "calculated_datetime": "2025-06-23T13:15:00",
-    "time_until_kickoff": "0.7h"
+    "time_until_kickoff": "0.6h"
   },
   {
     "kickoff_time": "13:15",
@@ -126,10 +126,10 @@
     "away_team": "Real MadridArthur",
     "tv_channel": "TV2",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483352",
+    "last_updated": "2025-06-23T12:36:56.706928",
     "match_id": "VillarrealDelpiero_Real_MadridArthur_13:15",
     "calculated_datetime": "2025-06-23T13:15:00",
-    "time_until_kickoff": "0.7h"
+    "time_until_kickoff": "0.6h"
   },
   {
     "kickoff_time": "13:30",
@@ -138,10 +138,10 @@
     "away_team": "Athletic BilbaoDelpiero",
     "tv_channel": "TV1",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483381",
+    "last_updated": "2025-06-23T12:36:56.706955",
     "match_id": "LazioPrince_Athletic_BilbaoDelpiero_13:30",
     "calculated_datetime": "2025-06-23T13:30:00",
-    "time_until_kickoff": "1.0h"
+    "time_until_kickoff": "0.9h"
   },
   {
     "kickoff_time": "13:30",
@@ -150,10 +150,10 @@
     "away_team": "PAOKArthur",
     "tv_channel": "TV2",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483409",
+    "last_updated": "2025-06-23T12:36:56.706982",
     "match_id": "TottenhamCarlos_PAOKArthur_13:30",
     "calculated_datetime": "2025-06-23T13:30:00",
-    "time_until_kickoff": "1.0h"
+    "time_until_kickoff": "0.9h"
   },
   {
     "kickoff_time": "13:30",
@@ -162,10 +162,10 @@
     "away_team": "Bayern M\u00fcnchenPotter",
     "tv_channel": "TV3",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483440",
+    "last_updated": "2025-06-23T12:36:56.707009",
     "match_id": "ArsenalDempsey_Bayern_M\u00fcnchenPotter_13:30",
     "calculated_datetime": "2025-06-23T13:30:00",
-    "time_until_kickoff": "1.0h"
+    "time_until_kickoff": "0.9h"
   },
   {
     "kickoff_time": "13:30",
@@ -174,10 +174,10 @@
     "away_team": "PSGDusan",
     "tv_channel": "TV4",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483468",
+    "last_updated": "2025-06-23T12:36:56.707036",
     "match_id": "Inter_MilanSato_PSGDusan_13:30",
     "calculated_datetime": "2025-06-23T13:30:00",
-    "time_until_kickoff": "1.0h"
+    "time_until_kickoff": "0.9h"
   },
   {
     "kickoff_time": "13:45",
@@ -186,10 +186,10 @@
     "away_team": "Athletic BilbaoDelpiero",
     "tv_channel": "TV1",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483496",
+    "last_updated": "2025-06-23T12:36:56.707063",
     "match_id": "Olympique_lyonnaisDiego_Athletic_BilbaoDelpiero_13:45",
     "calculated_datetime": "2025-06-23T13:45:00",
-    "time_until_kickoff": "1.2h"
+    "time_until_kickoff": "1.1h"
   },
   {
     "kickoff_time": "13:45",
@@ -198,10 +198,10 @@
     "away_team": "TottenhamCarlos",
     "tv_channel": "TV2",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483523",
+    "last_updated": "2025-06-23T12:36:56.707089",
     "match_id": "LazioPrince_TottenhamCarlos_13:45",
     "calculated_datetime": "2025-06-23T13:45:00",
-    "time_until_kickoff": "1.2h"
+    "time_until_kickoff": "1.1h"
   },
   {
     "kickoff_time": "14:00",
@@ -210,10 +210,10 @@
     "away_team": "LeipzigHussein",
     "tv_channel": "TV3",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483552",
+    "last_updated": "2025-06-23T12:36:56.707116",
     "match_id": "LeverkusenGiant_LeipzigHussein_14:00",
     "calculated_datetime": "2025-06-23T14:00:00",
-    "time_until_kickoff": "1.5h"
+    "time_until_kickoff": "1.4h"
   },
   {
     "kickoff_time": "14:00",
@@ -222,10 +222,10 @@
     "away_team": "Bayern M\u00fcnchenProfessor",
     "tv_channel": "TV4",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483583",
+    "last_updated": "2025-06-23T12:36:56.707142",
     "match_id": "StuttgartEros_Bayern_M\u00fcnchenProfessor_14:00",
     "calculated_datetime": "2025-06-23T14:00:00",
-    "time_until_kickoff": "1.5h"
+    "time_until_kickoff": "1.4h"
   },
   {
     "kickoff_time": "14:00",
@@ -234,10 +234,10 @@
     "away_team": "PAOKArthur",
     "tv_channel": "TV1",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483612",
+    "last_updated": "2025-06-23T12:36:56.707172",
     "match_id": "Olympique_lyonnaisDiego_PAOKArthur_14:00",
     "calculated_datetime": "2025-06-23T14:00:00",
-    "time_until_kickoff": "1.5h"
+    "time_until_kickoff": "1.4h"
   },
   {
     "kickoff_time": "14:00",
@@ -246,10 +246,10 @@
     "away_team": "TottenhamCarlos",
     "tv_channel": "TV2",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483640",
+    "last_updated": "2025-06-23T12:36:56.707198",
     "match_id": "Athletic_BilbaoDelpiero_TottenhamCarlos_14:00",
     "calculated_datetime": "2025-06-23T14:00:00",
-    "time_until_kickoff": "1.5h"
+    "time_until_kickoff": "1.4h"
   },
   {
     "kickoff_time": "14:15",
@@ -258,10 +258,10 @@
     "away_team": "LeipzigHussein",
     "tv_channel": "TV3",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483668",
+    "last_updated": "2025-06-23T12:36:56.707224",
     "match_id": "Borussia_DortmundRazvan_LeipzigHussein_14:15",
     "calculated_datetime": "2025-06-23T14:15:00",
-    "time_until_kickoff": "1.7h"
+    "time_until_kickoff": "1.6h"
   },
   {
     "kickoff_time": "14:15",
@@ -270,10 +270,10 @@
     "away_team": "StuttgartEros",
     "tv_channel": "TV4",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483695",
+    "last_updated": "2025-06-23T12:36:56.707250",
     "match_id": "LeverkusenGiant_StuttgartEros_14:15",
     "calculated_datetime": "2025-06-23T14:15:00",
-    "time_until_kickoff": "1.7h"
+    "time_until_kickoff": "1.6h"
   },
   {
     "kickoff_time": "14:15",
@@ -282,10 +282,10 @@
     "away_team": "TottenhamCarlos",
     "tv_channel": "TV1",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483722",
+    "last_updated": "2025-06-23T12:36:56.707277",
     "match_id": "Olympique_lyonnaisDiego_TottenhamCarlos_14:15",
     "calculated_datetime": "2025-06-23T14:15:00",
-    "time_until_kickoff": "1.7h"
+    "time_until_kickoff": "1.6h"
   },
   {
     "kickoff_time": "14:15",
@@ -294,10 +294,10 @@
     "away_team": "LazioPrince",
     "tv_channel": "TV2",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483751",
+    "last_updated": "2025-06-23T12:36:56.707306",
     "match_id": "PAOKArthur_LazioPrince_14:15",
     "calculated_datetime": "2025-06-23T14:15:00",
-    "time_until_kickoff": "1.7h"
+    "time_until_kickoff": "1.6h"
   },
   {
     "kickoff_time": "14:30",
@@ -306,10 +306,10 @@
     "away_team": "Bayern M\u00fcnchenProfessor",
     "tv_channel": "TV3",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483779",
+    "last_updated": "2025-06-23T12:36:56.707333",
     "match_id": "Borussia_DortmundRazvan_Bayern_M\u00fcnchenProfessor_14:30",
     "calculated_datetime": "2025-06-23T14:30:00",
-    "time_until_kickoff": "2.0h"
+    "time_until_kickoff": "1.9h"
   },
   {
     "kickoff_time": "14:30",
@@ -318,10 +318,10 @@
     "away_team": "StuttgartEros",
     "tv_channel": "TV4",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483813",
+    "last_updated": "2025-06-23T12:36:56.707362",
     "match_id": "LeipzigHussein_StuttgartEros_14:30",
     "calculated_datetime": "2025-06-23T14:30:00",
-    "time_until_kickoff": "2.0h"
+    "time_until_kickoff": "1.9h"
   },
   {
     "kickoff_time": "14:30",
@@ -330,10 +330,10 @@
     "away_team": "LazioPrince",
     "tv_channel": "TV1",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483844",
+    "last_updated": "2025-06-23T12:36:56.707389",
     "match_id": "Olympique_lyonnaisDiego_LazioPrince_14:30",
     "calculated_datetime": "2025-06-23T14:30:00",
-    "time_until_kickoff": "2.0h"
+    "time_until_kickoff": "1.9h"
   },
   {
     "kickoff_time": "14:30",
@@ -342,9 +342,9 @@
     "away_team": "Athletic BilbaoDelpiero",
     "tv_channel": "TV2",
     "status": "",
-    "last_updated": "2025-06-23T12:30:44.483872",
+    "last_updated": "2025-06-23T12:36:56.707416",
     "match_id": "PAOKArthur_Athletic_BilbaoDelpiero_14:30",
     "calculated_datetime": "2025-06-23T14:30:00",
-    "time_until_kickoff": "2.0h"
+    "time_until_kickoff": "1.9h"
   }
 ]
