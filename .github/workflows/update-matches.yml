@@ -120,20 +120,4 @@ jobs:
           echo "⏰ Updated: $(jq -r .last_updated_readable assets/data/status.json)"
           echo "🕐 Window: $(jq -r .data_window assets/data/status.json)"
         fi
-        echo "✅ Deployment ready!"
-
-  # Optional: Deploy to Vercel after successful data update
-  deploy:
-    needs: update-data
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    
-    steps:
-    - name: 🚀 Deploy to Vercel
-      uses: amondnet/vercel-action@v25
-      with:
-        vercel-token: ${{ secrets.VERCEL_TOKEN }}
-        vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-        vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-        vercel-args: '--prod'
-        working-directory: ./
+        echo "✅ GitHub Pages deployment ready!"
