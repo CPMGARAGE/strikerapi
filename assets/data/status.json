@@ -1,11 +1,12 @@
 {
-  "last_updated": "2025-06-23T13:08:43.261577",
-  "last_updated_readable": "2025-06-23 13:08:43 UTC",
-  "fixtures_count": 28,
+  "last_updated": "2025-06-23T13:31:00.803415",
+  "last_updated_readable": "2025-06-23 13:31:00 UTC",
+  "fixtures_count": 31,
   "players_count": 42,
   "live_matches": 0,
-  "upcoming_matches": 0,
+  "upcoming_matches": 31,
   "status": "success",
-  "data_window": "2 hours",
-  "source": "gtleagues.com"
+  "data_window": "2 hours from now",
+  "source": "gtleagues.com",
+  "parsing_method": "improved_gt_structure"
 }
