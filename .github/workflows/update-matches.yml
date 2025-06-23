@@ -1,0 +1,139 @@
+# .github/workflows/update-matches.yml
+name: 🤖 StrikerBot Data Update
+
+on:
+  schedule:
+    # Run every 30 minutes to ensure fresh 2-hour window
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [ main ]
+    paths: 
+      - 'gt_scraper_dashboard.py'
+      - '.github/workflows/update-matches.yml'
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🚀 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: 📦 Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          
+    - name: 🔧 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install playwright beautifulsoup4 lxml
+        playwright install chromium
+        
+    - name: 📁 Create data directory
+      run: |
+        mkdir -p assets/data
+        
+    - name: 🛰️ Run StrikerBot scraper
+      run: |
+        echo "🤖 Starting StrikerBot data collection..."
+        python gt_scraper_dashboard.py
+        echo "✅ StrikerBot data collection completed"
+        
+    - name: 📊 Verify data files
+      run: |
+        echo "📋 Checking generated files..."
+        ls -la assets/data/
+        if [ -f "assets/data/fixtures.json" ]; then
+          echo "✅ Fixtures file exists"
+          FIXTURE_COUNT=$(jq length assets/data/fixtures.json)
+          echo "📊 Found $FIXTURE_COUNT fixtures"
+        else
+          echo "❌ Fixtures file missing"
+          exit 1
+        fi
+        
+        if [ -f "assets/data/players.json" ]; then
+          echo "✅ Players file exists"
+          PLAYER_COUNT=$(jq length assets/data/players.json)
+          echo "📊 Found $PLAYER_COUNT players"
+        else
+          echo "❌ Players file missing"
+          exit 1
+        fi
+        
+        if [ -f "assets/data/status.json" ]; then
+          echo "✅ Status file exists"
+          jq . assets/data/status.json
+        else
+          echo "❌ Status file missing"
+          exit 1
+        fi
+        
+    - name: 🔍 Check for changes
+      id: check-changes
+      run: |
+        git add assets/data/
+        if git diff --staged --quiet; then
+          echo "No changes detected"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: 📝 Commit and push changes
+      if: steps.check-changes.outputs.has_changes == 'true'
+      run: |
+        git config --local user.email "strikerbot@github.com"
+        git config --local user.name "StrikerBot"
+        
+        # Get stats for commit message
+        FIXTURE_COUNT=$(jq length assets/data/fixtures.json)
+        LIVE_COUNT=$(jq '[.[] | select(.status | test("live|Live|LIVE|HT|ht"))] | length' assets/data/fixtures.json)
+        TIMESTAMP=$(date -u "+%Y-%m-%d %H:%M UTC")
+        
+        git add assets/data/
+        git commit -m "🤖 StrikerBot: $FIXTURE_COUNT matches ($LIVE_COUNT live) | $TIMESTAMP"
+        git push
+        
+    - name: 📈 Summary
+      run: |
+        echo "🚀 StrikerBot Update Summary:"
+        echo "================================"
+        if [ -f "assets/data/status.json" ]; then
+          echo "📊 Status: $(jq -r .status assets/data/status.json)"
+          echo "📋 Fixtures: $(jq -r .fixtures_count assets/data/status.json)"
+          echo "🎮 Players: $(jq -r .players_count assets/data/status.json)"
+          echo "🔴 Live: $(jq -r .live_matches assets/data/status.json)"
+          echo "⏰ Updated: $(jq -r .last_updated_readable assets/data/status.json)"
+          echo "🕐 Window: $(jq -r .data_window assets/data/status.json)"
+        fi
+        echo "✅ Deployment ready!"
+
+  # Optional: Deploy to Vercel after successful data update
+  deploy:
+    needs: update-data
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: 🚀 Deploy to Vercel
+      uses: amondnet/vercel-action@v25
+      with:
+        vercel-token: ${{ secrets.VERCEL_TOKEN }}
+        vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+        vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+        vercel-args: '--prod'
+        working-directory: ./
