@@ -1,22 +1,22 @@
 [
   {
-    "kickoff_time": "16:11",
+    "kickoff_time": "16:51",
     "week": "GT Week Test",
     "home_team": "Test Team A",
     "away_team": "Test Team B",
     "tv_channel": "GT Test",
     "status": "Upcoming",
-    "last_updated": "2025-11-11T15:41:41.570014",
+    "last_updated": "2025-11-11T16:21:07.907923",
     "match_id": "TEST_A_B"
   },
   {
-    "kickoff_time": "16:41",
+    "kickoff_time": "17:21",
     "week": "GT Week Test",
     "home_team": "Test Team C",
     "away_team": "Test Team D",
     "tv_channel": "GT Test",
     "status": "Upcoming",
-    "last_updated": "2025-11-11T15:41:41.570023",
+    "last_updated": "2025-11-11T16:21:07.907939",
     "match_id": "TEST_C_D"
   }
 ]
