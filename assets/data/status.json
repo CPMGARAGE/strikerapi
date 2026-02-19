@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-19T14:10:33.684646",
-  "last_updated_readable": "2026-02-19 14:10:33 UTC",
+  "last_updated": "2026-02-19T15:12:48.443654",
+  "last_updated_readable": "2026-02-19 15:12:48 UTC",
   "fixtures_count": 2,
   "players_count": 0,
   "live_matches": 0,
@@ -8,6 +8,6 @@
   "status": "success",
   "data_window": "2 hours from current time",
   "source": "gtleagues.com",
-  "current_time": "14:10",
-  "debug_info": "Scraped at 14:10:33"
+  "current_time": "15:12",
+  "debug_info": "Scraped at 15:12:48"
 }
